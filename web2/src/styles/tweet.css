@@ -1,0 +1,46 @@
+.exit{
+  color:var(--main-color);
+  cursor:pointer;
+  margin-bottom:20px;
+  margin-top:0px;
+}
+.header {
+  border-bottom: 1px solid var(--accent);
+  width: 110%;
+  
+  padding: 0;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+.footer {
+  border-bottom: 1px solid var(--accent);
+  width: 100%;
+  padding: 0;
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.tweet-button{
+    justify-self:end;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    font-size:15px;
+}
+.tweet-button:hover{
+    background-color: white;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+.tweet-button:focus {
+    outline: none;
+  }
+  textarea {
+    border: none;
+    font-size: 18px;
+  }
+  textarea:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }

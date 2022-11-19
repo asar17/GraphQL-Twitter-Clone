@@ -1,0 +1,27 @@
+.tweet-container{
+    border-bottom: 1px solid var(--accent);
+	margin-top: 10px;
+}
+.tweet-header{
+    display: grid;
+	grid-template-columns: 0.5fr 4.5fr 5fr 7.5fr;
+    margin-left:10px;
+}
+.date-time {
+	margin-top: 5px;
+	font-size: 12px;
+}
+p {
+	margin-left: 10px;
+}
+
+.name{
+    margin-top:0;
+}
+.likes{
+	display: grid;
+	grid-template-columns: 1fr 1fr 10fr;
+	margin-left: 10px;
+	cursor:pointer;
+	margin-bottom:10px;
+}

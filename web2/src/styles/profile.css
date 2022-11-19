@@ -1,0 +1,73 @@
+.profile {
+	position: relative;
+	border: 1px solid var(--accent);
+}
+.profile-info{
+    padding-left:20px;
+    border-bottom:10px solid var(--accent)
+}
+.profile-head{
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 9fr;
+    border-bottom: 1px solid var(--accent);
+    margin-left:-20px;
+}
+.back-arrow{
+    color:var(--main-color);
+    margin:10px;
+    margin-top:11px;
+    cursor:pointer;
+}
+.nickname{
+    margin-top:-20px;
+    margin-bottom:30px;
+    text-transform:capitalize;
+}
+.nickname h4{
+    padding-left:0px;
+    font-size:18px;
+}
+.nickname h4:hover{
+    background-color:white;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.make-profile{
+    display:grid;
+    justify-items:end;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+.name{
+    text-align:left;
+    text-transform:capitalize;
+    margin-left:-20px;
+}
+.avatar{
+    margin-top:12px;
+}
+.name:hover{
+    background-color:white;
+}
+.edit-button{
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color:white;
+    color:var(--main-color);
+    border: 1px solid var(--main-color);
+    font-size:15px;
+}
+.edit-button:hover{
+    background-color:#55abee3b;
+    border:1px solid var(--main-color);
+}
+.edit-button:focus {
+	outline: none;
+}
+.followers {
+	display: grid;
+	grid-template-columns: 3fr 3fr 6fr;
+}
